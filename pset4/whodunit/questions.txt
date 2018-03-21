@@ -1,0 +1,14 @@
+1.  A header file in the C standard library that provided a set of specific exaxt width integer types that allow programmers to write more portable code
+2.  These codes are used to define and integer of a precise size. uint8_t is for unsigned integer 8 bit, uint32_t for unsigned integer 32 bit
+int32_t for signed 32 bit integer and uint16_t for unsigned integer 16 bit.
+3.  BYTE=8bits DWORD=32bits LONG=32bits WORD=16 bits
+4.  in ASCII is BM or in hex is 0x424d
+5.  BfSize is the size, in bytes, of the bitmap file. biSize is representing the number of bytes required by the structure.  
+6.  If biHeight is negative, the bitmap is a top-down DIB and its origin is the upper-left corner.
+7.  biBitCount
+8.  Missing permissioning, invalid file name, file does not exist, etc. 
+9.  It indicates how many elements we want to read, which is generally 1
+10. 3
+11. As per man page "The  fseek()  function  sets the file position indicator for the stream pointed to by stream", which means that
+it points to a specific location in afile. 
+12. It moves file pointer position to given location. ref. http://fresh2refresh.com/c-programming/c-file-handling/fseek-seek_set-seek_cur-seek_end-functions-c/
